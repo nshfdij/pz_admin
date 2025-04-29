@@ -1,0 +1,15 @@
+.custom-message {
+    display: flex !important; /* 强制使用弹性布局 */
+    align-items: center; /* 垂直居中，使图标和文字在一行对齐 */
+    position: fixed !important;
+    top: 20px !important; /* 相对页面顶部的比例，可改30%为具体像素值 */
+    left: 50% !important;
+    transform: translateX(-50%) !important; /* 水平居中 */
+    width: auto !important;
+    background-color: #fdf6ec !important; /* ElementPlus 警告默认背景色 */
+    color: #e6a23c !important; /* ElementPlus 警告默认文本颜色 */
+    border: 1px solid #faecd8 !important;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+    padding: 5px 20px;
+  }
+  
